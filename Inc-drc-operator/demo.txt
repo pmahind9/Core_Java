@@ -1,0 +1,34 @@
+/* Unary Operator
+
+1. increment opr: incre value by 1
+  1.preincreament: it incre value then print
+  2. post incream: first print vlaue then increase
+
+2. decreament operator: it decreas value by 1.
+
+
+
+
+
+
+*/
+
+
+
+
+class Demo 
+{
+
+
+     public static void main (String [] ram)
+     {
+         
+          int x=10;
+         System.out.println(x++); //10
+	 System.out.println(x++); //11
+	 System.out.println(++x);
+	
+         
+    }
+
+ }
