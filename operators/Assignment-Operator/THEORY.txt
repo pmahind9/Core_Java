@@ -1,0 +1,68 @@
+1) What is program?
+==> gives instructions to the computer to perform perticular task.
+
+2) what is software and types give one-one example
+==>it is a process to tell computer to do perticular task or specific one.
+   a)system software:-
+     it is in the form of 0,1 form means binary form
+     it mainly uses in binary code form it is very complex , and use to develop operating systems like WINDOS,MACOS,LINUS IIT Madras's    BHAR'OS. it is faster than Application Software
+
+   B) Application Software:-
+     it is java,python,etc 
+     in industry most useable softwares
+
+3) What is the difference between low-level and high level language? 
+==> @low level langauge deal's with software as well as hardware also 
+    mainly use in Operating Systems
+    @high-Level Language has pre-defined Libraries
+
+
+4) What is Java? 
+==> java is high level , object oriented programming langues 
+
+5)Write the 5 features of java
+==> It is more secure than most of the other langauges.
+    it supports OOPS so easy to reuse.
+    we can do multiple tasks simultaneously.
+    we can use this in Web as well as Mobile app Development.
+    java adopt modification
+
+6) What is jdk jre and jvm?
+   jdk=> (java development kit)
+         is has tools which need to develop java appliction
+
+   JRE=> (java runtime enviroment)
+      
+         it provide required runtime support for java programs
+     
+   JVM=> (java virtual machine)
+         it can run class or Bytecode.
+         java is independent but JVM is Dependent langauge.
+
+7) Explain the System.out.println?
+==> System -> system is pre-definer java class. it helds in java.lang package.
+    out-> instance of Printstream Class
+    println-> method of printstream class.
+
+8) explain the main method?
+==> public-> access specifier
+    static-> keyword
+    void -> return type
+    main()-> method name
+    String[]-> array of string
+    args-> variable of array string
+
+9) what is Scanner?
+==> Scanner is predefined class in java.
+    it used to get input from user.
+    it present in java.util package
+
+10) what is package?
+==> its a collection of interfaces and classes.
+
+11) What is RT.jar file?
+==> Runtime java archive file . it has collection of pre-defined classes & interfaces.
+
+
+12) what is jar?
+==> it is compressed files which is used for packaging java class files. 

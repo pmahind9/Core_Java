@@ -1,0 +1,24 @@
+ Assignment Operator
+=
++=
+-=
+/=
+
+
+
+*/
+class Demo 
+{
+
+
+public static void main (String [] ram)
+{
+   int sum=10;
+        sum+=10;
+
+   sum=sum+10;
+
+System.out.println(sum);
+}
+
+}
