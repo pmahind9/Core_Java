@@ -1,4 +1,4 @@
-//armstrong using dowhile
+
 
 import java.util.Scanner;
 
