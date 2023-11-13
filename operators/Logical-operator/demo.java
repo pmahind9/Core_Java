@@ -1,8 +1,5 @@
 /* Logical Operator*/
 
-
-
-
 class Demo 
 {
 
