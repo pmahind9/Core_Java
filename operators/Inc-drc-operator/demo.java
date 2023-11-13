@@ -11,13 +11,7 @@ A. increment opr: incre value by 1
   1. pre decr (--value)
   2. post deac (value -- )
 
-
-
-
-
-
 */
-
 
 
 
