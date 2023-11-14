@@ -1,4 +1,5 @@
 // Write a java program to print table of inputed number
+
 import java.util.Scanner;
 
  class MultiplicationTable {
