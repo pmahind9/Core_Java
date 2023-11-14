@@ -2,8 +2,10 @@
 wap to input n digit no. and find the sum and count of even number from n-digit number.
 */
 
-import java.util.Scanner;
 
+
+
+import java.util.Scanner;
  class Dowhile {
     public static void main(String args[]) {
        Scanner sc=new Scanner(System.in);
