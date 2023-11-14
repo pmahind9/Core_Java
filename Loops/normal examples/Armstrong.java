@@ -1,7 +1,8 @@
-//Armstrong number
-//original number + prattek num cha cube chi addition equal ali tr 
-//Armstrong number asto.
 /*
+Armstrong number
+original number + prattek num cha cube chi addition equal ali tr 
+Armstrong number asto.
+
 143=27+64+1  nhi
 153=27+125+1 ahe 
 */
