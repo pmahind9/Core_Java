@@ -11,8 +11,6 @@ int num = sc.nextInt();
 
 int rem;
 int rev=0;
-
-
 for(int temp=num;temp!=0;temp=temp/10)
 	{
 	 rem = temp%10;
