@@ -1,6 +1,7 @@
 /*
 write a java program to input first and last number and print all even number between them
 */
+
  import java.util.Scanner;
 class Forloop{
 public static void main(String[] args){
