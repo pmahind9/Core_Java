@@ -13,10 +13,8 @@ import java.util.Scanner;
 	{
 	 System.out.println("Enter number");
 	}
-
 	int sum=0;
 	int c=0;
-	
 	for(; n>0; n/=10)
 	{
 	 int dig=n%10;
