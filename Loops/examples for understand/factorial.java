@@ -11,18 +11,10 @@ class Factorial
 	  System.out.println("Enter no");
 	  int n=sc.nextInt();
 	  
-	int fact=1;
-	
- 	  
-	 
-	                        
+	int fact=1;	                        
 	  for(int i=1; i<=n; i++){
-	    fact=fact*i;
-	   
-	  
+	    fact=fact*i;  
 	}
-System.out.println("Factorial is :" +fact);
-		
-		
+System.out.println("Factorial is :" +fact);		
 }
 }
