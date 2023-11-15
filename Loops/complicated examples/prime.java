@@ -8,16 +8,12 @@ import java.util.Scanner;
 	
 	int n=sc.nextInt();
 	int c=0;
-	
-
-
 	for(int j=2; j<n;j++){
 	  if (n%j==0)
 		{
 		 c++;
 		break;
 		}
-	
 	}
 	 if(c==0)
 	{
@@ -28,6 +24,5 @@ import java.util.Scanner;
 	 System.out.println("Number is not Prime");
 	}
 	System.out.println("count of number is:"+c);
-	
     }
 }
