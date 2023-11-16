@@ -28,7 +28,4 @@ num/=10;
 
 System.out.println("Count is:" +count);
 }
-
-
-
 }
