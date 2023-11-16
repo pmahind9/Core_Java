@@ -14,6 +14,7 @@ Divided by 3 & 5:
 15, 30, 45, 60, 75, 90,
 */
 
+
  class DivisibleNumbers {
     public static void main(String[] args) {
         int number = 1;
