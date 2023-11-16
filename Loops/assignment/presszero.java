@@ -2,8 +2,6 @@
 Q14..WAP to add multiple  number, ask user to take  input as their need. 
    press 0 to terminate inputting after that calculate sum of that inputted number.
 */
-
-
 import java.util.Scanner;
 
  class SumOfMultipleNumbers {
