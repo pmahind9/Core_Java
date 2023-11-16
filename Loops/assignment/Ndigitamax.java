@@ -1,5 +1,4 @@
 //Nested-Loop
-
 import java.util.Scanner;
 
 class Ndigit
