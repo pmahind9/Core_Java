@@ -2,8 +2,6 @@
 Q16.wap to find factorial of given no
 */
 
-
-
 import java.util.Scanner;
 
 class Factorial
@@ -19,12 +17,7 @@ class Factorial
 	 	  
 	for(int i=1; i<=n; i++) {
 	 fact*=i;
-	}
-	 
-	  
-	
-System.out.println("Factorial is :" +fact);
-		
-		
+	}	
+System.out.println("Factorial is :" +fact);	
 }
 }
