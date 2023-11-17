@@ -1,6 +1,7 @@
 /*
 Q11.Write a program to input an 8-digit number and find the product of odd  digits.
 */
+
 import java.util.Scanner;
 
 class Eightdigit{
