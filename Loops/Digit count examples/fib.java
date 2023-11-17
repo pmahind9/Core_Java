@@ -2,7 +2,6 @@
 Q6.Write a program to print the Fibonacci series up to a given number using a while loop.
 */
 
-
 import java.util.Scanner;
 
  class Fibonacchi {
