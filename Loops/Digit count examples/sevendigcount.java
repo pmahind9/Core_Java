@@ -1,9 +1,8 @@
 /*
 Q10.Write a program to input a 7-digit number and count the number of even digits in it.
-
 */
-import java.util.Scanner;
 
+import java.util.Scanner;
 class Sevendigit{
 public static void main(String[] args){
 
