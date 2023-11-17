@@ -1,6 +1,7 @@
 /*
 Q8.Write a program to input a 4-digit number and calculate the sum of its digits.
 */
+
 import java.util.Scanner;
 
 class Four{
