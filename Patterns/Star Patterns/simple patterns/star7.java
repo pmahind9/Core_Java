@@ -1,9 +1,7 @@
 class Star7{
 public static void main(String args[]){
 
-int col=9;
-
-	
+int col=9;	
 	for(int i=1; i<=9; i++){
 		
 	for (int j=i; j<col; j++){
