@@ -16,8 +16,6 @@ class star4{
 	   System.out.println();
 		
 		}
-
-
 }
 
 }
