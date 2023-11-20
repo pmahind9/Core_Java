@@ -10,7 +10,6 @@ class Star{
 		for(int k=i; k<=n; k++){
 		System.out.print("*");
 		}
-	
  	System.out.println();
 }
 
