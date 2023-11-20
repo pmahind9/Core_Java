@@ -1,4 +1,5 @@
 /*
+
     *
    * *
   * * *
@@ -8,6 +9,7 @@
   * * *
    * *
     *
+
 */ 
 
 class DiamondPattern {
