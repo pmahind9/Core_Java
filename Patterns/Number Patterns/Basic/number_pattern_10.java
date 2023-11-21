@@ -8,9 +8,6 @@
 		a++;
     }
     System.out.println();
-}
-
-
-
+ }
     }
 }
