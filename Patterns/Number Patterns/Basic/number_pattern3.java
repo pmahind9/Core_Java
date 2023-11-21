@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Number_pattern3{
 public static void main(String[] args){
 
