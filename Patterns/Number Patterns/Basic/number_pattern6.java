@@ -12,7 +12,6 @@
             for (int k = 1; k <= i; k++) {
                 System.out.print(k + " ");
             }
-
             System.out.println(); // Move to the next line
         }
     }
