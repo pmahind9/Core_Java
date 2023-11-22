@@ -8,7 +8,6 @@ class Typecasting{
 
 	System.out.println(ch);
 
-
 }
 
 }
