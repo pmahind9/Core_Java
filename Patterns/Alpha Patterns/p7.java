@@ -8,8 +8,6 @@ F E
 F
 
 */
-
-
 class Alphapattern7{
   public static void main(String[] args){
 
