@@ -6,7 +6,6 @@
  A B C D E
 A B C D E F
 
-
 */
 
 class Alphapattern6{
