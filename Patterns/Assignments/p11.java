@@ -9,7 +9,6 @@ F E D C B A
 
 */
 
-
 class Alphapattern11{
   public static void main(String[] args){
 
