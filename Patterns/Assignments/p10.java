@@ -9,7 +9,6 @@ P Q R S T U
 
 */
 
-
 class Alphapattern10{
   public static void main(String[] args){
 
