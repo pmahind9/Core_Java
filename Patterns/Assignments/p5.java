@@ -1,5 +1,4 @@
 //alpha pattern5
-
 class Alphapattern5{
   public static void main(String[] args){
 
