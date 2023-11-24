@@ -7,8 +7,6 @@ class Narrowing{
 	long l= a;
 
 	System.out.println(l);
-
-
 }
 
 }
