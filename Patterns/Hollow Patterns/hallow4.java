@@ -17,8 +17,7 @@ public static void main(String[] args){
 		 System.out.print("* ");
 		}else{
 			System.out.print("  ");
-			
-		    }
+		      }
 		}
 	    System.out.println();
 	}
