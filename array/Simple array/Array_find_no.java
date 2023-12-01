@@ -8,8 +8,6 @@ class ArrayFInd {
 public static void main(String[] args){
 
 Scanner sc= new Scanner(System.in);
-
-
 int a[]={1,12,23,64,85,96,19,28,19,10};
 System.out.println("Enter your no to search");
 
