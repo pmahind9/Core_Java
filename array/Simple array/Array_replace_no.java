@@ -13,14 +13,9 @@ for(int i=0; i<n.length; i++)
    n[i]=1;
   }
 }
-
 for(int i=0; i<n.length; i++)
-
   {
    System.out.println(n[i]+ " ");
   }
-
-
 }
-
 }
