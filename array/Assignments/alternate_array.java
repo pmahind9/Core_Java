@@ -6,8 +6,6 @@ hyamde x=0 & y=1 ghetal ahe karn
 
   11     22    66     10     9  => y ha index 1, 3, 5, 7, 9  asha ghrt yenr karn y+2 ahe
 
-
-
 */
 
 class Merge_of_arrays{
