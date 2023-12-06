@@ -6,7 +6,6 @@ Wap sort half array in accending and half in decending order
 
 class Half_Sorting{
 public static void main(String[] args){
-
 int a[]={9,1,3,5,6,11,22,66,10,19};
 
 	for(int i=0; i<a.length/2; i++)     //index no. 0 psun a.length/2 mhnje nimmya prynt
