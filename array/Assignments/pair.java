@@ -9,7 +9,6 @@ Output:  (1,5) ,(7 -1)
 */
 
 class Pairs{
-
 public static void main(String[] args){
 
 int a[]={1, 5, 7, -1};
