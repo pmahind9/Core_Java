@@ -1,6 +1,5 @@
 class Minnum{
 public static void main(String[] args){
-
 int a[]={2,4,6,8,7,9,2,4};
 	int min=a[0];
 
