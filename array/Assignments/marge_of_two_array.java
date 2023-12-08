@@ -7,7 +7,6 @@ public static void main(String[] args){
 int a[]={9,1,3,5,6,};
 int b[]={11,22,66,10,19};
 int c[]=new int[a.length + b.length];
-
 	for(int i=0; i<a.length; i++)
 	 {
 		c[i]=a[i];
