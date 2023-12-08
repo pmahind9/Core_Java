@@ -3,8 +3,6 @@ Q5.Given an array and a value, find if there is a triplet in array whose sum is 
 If there is such a triplet present in array, then print the triplet and return true. Else return false.
 
 Examples: 
- 
-
 Input: array = {12, 3, 4, 1, 6, 9}, sum = 24; 
 Output: 12, 3, 9
 */
