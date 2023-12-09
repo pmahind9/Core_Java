@@ -18,6 +18,4 @@ int a[]={5,4,6,8,7,9,3,4};
 	 System.out.println("Minimum number in an array : " +min);
 	 System.out.println("second min number in an array : " +secmin);
 }
-
-
 }
