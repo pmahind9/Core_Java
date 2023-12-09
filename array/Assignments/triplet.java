@@ -6,7 +6,6 @@ Examples:
 Input: array = {12, 3, 4, 1, 6, 9}, sum = 24; 
 Output: 12, 3, 9
 */
-
 class Triplet{
 
 public static void main(String[] args){
