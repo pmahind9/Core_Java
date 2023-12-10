@@ -20,10 +20,7 @@ int a[]={9,1,3,5,6,11,22,66,10,19};
 		   a[j] = temp;
 		  }
 		}	
-
 	 }
-
-
 	for(int i=a.length/2; i<a.length; i++)   // a.length/2 psun start TE a.length prynt 
 	 {
 		for(int j=i+1; j<a.length; j++)
