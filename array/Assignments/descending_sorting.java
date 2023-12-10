@@ -2,6 +2,7 @@
 class Sorting_Descending{
 public static void main(String[] args){
 
+	
 int a[]={2,1,6,3,4,9,5,7,8};
 
 	for(int i=0; i<a.length; i++)
