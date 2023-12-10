@@ -1,6 +1,5 @@
 /*
 wap to find prime no in an array
-
 */
 
 class PrimeNum{
