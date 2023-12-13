@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Prime_Sum {
     public static void main(String[] args) {
         int f = 100;
