@@ -11,7 +11,6 @@ Array with every second element is greater than its left and right elements:
 
 class Mid_Greater{
 public static void main(String[] args){
-
 int a[] = { 1, 2, 4, 9, 5, 3, 8, 7, 10, 12, 14 };
 
 for (int i=1; i<a.length; i=i+2)
