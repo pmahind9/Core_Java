@@ -3,7 +3,6 @@ Q.Write a Java program to find the sum of the prime numbers between 100 and 200,
 */
 
 import java.util.Scanner;
-
 class Prime_Sum {
     public static void main(String[] args) {
         int f = 100;
