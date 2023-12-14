@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Odd_even_Arrangement {
     public static void main(String[] args) {
         int a[] = {1,0,6,9,11,8,9,34,7,5,12,};
