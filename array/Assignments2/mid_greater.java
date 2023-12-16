@@ -1,6 +1,5 @@
 /*
 3.Write a Java program to rearrange a given array of unique elements such that every second element of the array is greater than its left and right elements.  
-
 Example:
 Input :
 nums= { 1, 2, 4, 9, 5, 3, 8, 7, 10, 12, 14 }
