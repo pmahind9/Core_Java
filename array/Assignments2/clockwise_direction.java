@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 class ClockwiseDirection {
     public static void main(String[] args) {
