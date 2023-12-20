@@ -4,7 +4,6 @@ Write a Java program to get the difference between the largest and smallest valu
 
 class Diff_Max_Min{
 public static void main(String[] args){
-
 int a[]= {5,9,8,3,2,4,7};
 
 int max=a[0];
