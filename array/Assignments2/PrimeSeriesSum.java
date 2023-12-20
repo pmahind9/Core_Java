@@ -1,7 +1,6 @@
 /*
 2. Write a Java program to generate the prime numbers between 50 and 80, but only consider the prime numbers that end with a digit greater than 5. Print the list of those prime numbers."
 */
-
 class PrimeSeriesSum3{
 public static void main(String[] args){
 	int f=50;
