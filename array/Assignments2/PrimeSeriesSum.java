@@ -5,7 +5,6 @@ class PrimeSeriesSum3{
 public static void main(String[] args){
 	int f=50;
 	int l=80;
-
 	int b[]=new int[50];
 	int x=0;
 
