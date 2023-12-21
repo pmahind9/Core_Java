@@ -7,7 +7,6 @@ public static void main(String[] args){
 	int l=80;
 	int b[]=new int[50];
 	int x=0;
-
 	for(int i=f; i<l; i++)
 	{
 		int c=0;
