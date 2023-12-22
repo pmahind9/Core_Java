@@ -11,7 +11,6 @@ Output :
 
 class Find{
 public static void main(String[] args){
-
 	int a[] =  {1, 7, 4, 3, 4, 8, 7};
 	int x = 7;
 	int k = 2;
