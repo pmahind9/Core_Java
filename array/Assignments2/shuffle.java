@@ -7,7 +7,6 @@ public static void main(String[] args){
 	for(int i=0; i<a.length; i++)
 	{
 	 int j= rc.nextInt(a.length);
-
 	int temp= a[i];
 	a[i]=a[j];
 	a[j]=temp;
