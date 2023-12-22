@@ -4,9 +4,7 @@ Example1:-
 
 Array = {11, 12, 13, 14, 15}
 Array after removing odd numbers:- {12, 14}
-
 */
-
 
 class Remove_Array
 {
