@@ -9,11 +9,10 @@ public static void main(String[] args){
 	int temp= a[i];
 	a[i]=a[j];
 	a[j]=temp;
-
 	}
 	for (int i=1; i<a.length; i++)
 	{
 	  System.out.print(a[i]+ " " );
 	}
-}
+    }
 }
