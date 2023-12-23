@@ -10,7 +10,6 @@ class Odd_even_Arrangement {
 	   {
 		b[x]=a[i];
 		x++;
-	
 	   }
         }
  	for (int i = 0; i < a.length ; i++) 
