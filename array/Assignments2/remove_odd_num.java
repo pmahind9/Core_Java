@@ -1,7 +1,6 @@
 /*
 Write a Java program to remove odd numbers from an array.
 Example1:-
-
 Array = {11, 12, 13, 14, 15}
 Array after removing odd numbers:- {12, 14}
 */
