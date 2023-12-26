@@ -14,7 +14,6 @@ class Prime_Sum {
                     break;
                 }
             }
-
             if (c == 0) {
                 b[x] = i;
                 x++;
