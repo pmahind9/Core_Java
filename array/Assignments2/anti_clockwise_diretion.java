@@ -3,7 +3,6 @@ class Anti_clockwiseDirection {
     public static void main(String[] args) {
         int a[] = {1, 2, 3, 4, 5};
         int x=2;
-
         for (int i = 0; i < x; i++) 
 	{
            int n=a[a.length-1];
