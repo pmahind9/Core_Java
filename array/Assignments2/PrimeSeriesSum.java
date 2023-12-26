@@ -18,7 +18,6 @@ public static void main(String[] args){
 		     break;
    		    }
 		}
-		
 		if(c==0)
 		{
   		 b[x]=i;
