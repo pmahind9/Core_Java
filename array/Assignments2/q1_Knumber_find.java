@@ -15,19 +15,16 @@ public static void main(String[] args){
 	int x = 7;
 	int k = 2;
 	int c = 0;
-
 	for(int i=0; i<a.length; i++)
 	{
 		if(a[i]==x)
 		{
 		 c++;
 		}
-		
 		if(c==k)
 		{
 		 System.out.print(a[i]+ " ");
 		}
 	}
-
-}
+    }
 }
