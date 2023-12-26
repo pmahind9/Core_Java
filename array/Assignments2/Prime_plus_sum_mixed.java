@@ -5,7 +5,6 @@ class Prime_Sum {
         int l = 200;
         int b[] = new int[100];
         int x = 0;
-
         for (int i = f; i <= l; i++) {
             int c = 0;
             for (int j = 2; j * j <= i; j++) {
