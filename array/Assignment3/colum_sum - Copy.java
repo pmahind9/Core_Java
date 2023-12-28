@@ -1,6 +1,4 @@
 			/* COLUMN SUM */
-
-
 import java.util.Scanner;
 
 class ColumnSum {
