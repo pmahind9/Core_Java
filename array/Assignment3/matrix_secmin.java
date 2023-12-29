@@ -1,5 +1,4 @@
 			/* Second Minimum */ 
-
 import java.util.Scanner;
 
 class Matrix_user_input {
