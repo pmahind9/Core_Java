@@ -1,7 +1,6 @@
 			/* Second Maximum */ 
 
 import java.util.Scanner;
-
 class Matrix_user_input {
     public static void main(String[] args) {
 
