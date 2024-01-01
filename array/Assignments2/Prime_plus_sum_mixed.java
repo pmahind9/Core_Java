@@ -18,7 +18,6 @@ class Prime_Sum {
                 x++;
             }
         }
-
         for (int i = 0; i < x; i++) {
             int sum = 0;
             int temp = b[i];
