@@ -21,15 +21,12 @@ class Two_Matrix_Addition {
                 b[i][j] = sc.nextInt();
             }
         }
-
         int c[][] = new int[row][colm];
-
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[i].length; j++) {
                 c[i][j] = a[i][j] + b[i][j];
             }
         }
-
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < c[i].length; j++) {
                 System.out.print(c[i][j] + " ");
