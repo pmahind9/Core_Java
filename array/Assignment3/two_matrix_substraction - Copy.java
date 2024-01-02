@@ -1,10 +1,7 @@
 		/* Two matrix Substraction */ 
-
 import java.util.Scanner;
-
 class Two_Matrix_Substraction {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter your Row size");
