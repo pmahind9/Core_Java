@@ -7,18 +7,13 @@ class Two_Matrix_Addition {
         int row = sc.nextInt();
         System.out.println("Enter your Column size");
         int colm = sc.nextInt();
-
         System.out.println("Enter your Matrix Element");
         int a[][] = new int[row][colm];
-
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < colm; j++) {
                 a[i][j] = sc.nextInt();
             }
         }
-
-	
-
 	System.out.println("Enter second matrix element");
         int b[][] = new int[row][colm];
         for (int i = 0; i < row; i++) {
