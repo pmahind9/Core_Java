@@ -1,7 +1,6 @@
 import java.util.Scanner;
 class RowSum {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter your Row size");
