@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class RowSum {
     public static void main(String[] args) {
 
