@@ -13,14 +13,11 @@ class RowSum {
                 a[i][j] = sc.nextInt();
             }
         }
-
         for (int i = 0; i < row; i++) {
             int sum = 0;
-
             for (int j = 0; j < colm; j++) {
                 sum = sum + a[i][j];
             }
-
             System.out.println("Sum of row " + (i + 1) + ": " + sum);
         }
     }
