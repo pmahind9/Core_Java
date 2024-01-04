@@ -1,5 +1,4 @@
 			/* Matrix Secondary Daigonal*/ 
-
 import java.util.Scanner;
 class Matrix_Secondary_Diagonal {
     public static void main(String[] args) {
