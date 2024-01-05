@@ -20,9 +20,6 @@ class Two_Matrix_Addition {
                 a[i][j] = sc.nextInt();
             }
         }
-
-	
-
 	System.out.println("Enter second matrix element");
         int b[][] = new int[row][colm];
         for (int i = 0; i < row; i++) {
