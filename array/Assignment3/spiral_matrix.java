@@ -16,7 +16,7 @@ import java.util.Iterator;
 		while (left <= right && top <= bottom)
 		{
 			for (int i = left; i <= right; i++) {
-				System.out.rint(a[top][i]+ " ");
+				System.out.print(a[top][i]+ " ");
 	    	}	
 			top++;
 			for (int i = top; i <= bottom; i++) {
