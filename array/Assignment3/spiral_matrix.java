@@ -31,7 +31,7 @@ import java.util.Iterator;
 		    if (left <= right) {
 				for (int i = bottom; i >= top; i--) {
 					System.out.print(a[i][left]+ " ");
-				}
+					}
 				left++;
 			   }
 			}
