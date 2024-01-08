@@ -12,8 +12,8 @@ import java.util.Scanner;
 		System.out.println(max);
 	}
 	public static void main (String[] args) {
-		Max_no_return_type_without_argument ob = new Max_no_return_type_without_argument()
-;
-		ob.maximum_element();}
+		Max_no_return_type_without_argument ob = new Max_no_return_type_without_argument();
+		ob.maximum_element();
+	}
 
 }
