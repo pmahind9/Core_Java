@@ -1,0 +1,113 @@
+//* OOPS*//
+ 
+obeject oriented programming structure.
+
+* as a name suggest opps refer to langauge tha use object in programming. they use objects as a primary source to impliment what is to happan in the code.
+
+*there are mainly 6 Concepts in oops:-
+
+1. class , 2. object/method.
+
+* there are mainly 4 pillars in the oops.
+
+1.Inheritance, 2.Polymorphism, 3.Abstraction, 4.Encapsulation.
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+* CLASS :-
+- from which object are created. 
+- it represent the set of properties, methods, variables, that are commanly used in object. 
+- you can create multiple objects with same behaviour.
+- same behaviour instead of wrinting code multiple times.
+- this includes classes for object occuring more than one in ever code
+
+- class declaration include following order:-
+
+  1. Modifiers:- public, protected, default, private
+  2. Classname:-
+  3. Body:- class body surronded by ().
+____ _______ ____ _____ _____ ______ _______ _____ ______ ______ _______ ______ ______ _______ ________ ______ _____ ______ _______ _______ _______ _______ _________ ______ _____ ______
+
+*OBJECT :-
+- object is a basic unit of opps that represents real time entities
+- in java program we can create multiple objects
+
+- object mainly consist of:-+
+
+	state:- 	it is a represented by the attributes in an objects.
+			it also refer the properties of objects.
+
+	bahaviour :-    it represent by the method.
+
+	identity :-	it is a unique name given to the object
+
+	method :-	method in java is collection of statement that perform some specific task & return result to caller        
+			java method allows to reuse the code retyping the code.
+
+		
+		
+		syntax:-
+			 . access modifier  
+		  	 . return type
+			 . method name (list of parameter)
+			{
+	              	   body
+			}
+
+			code optimization
+
+		types of method
+		1.pre-defined method:-
+
+			pre defined method are method that already defined in the java class libraries is known as pre defined method.
+
+		2. user-defined method:-
+			
+			the method written by user or programmer is known as user defined method.
+				
+			types of user defined method:-
+			a) no return type without argument
+
+			eg. public void display()
+				{   
+              			 body
+				};
+
+
+			b) No return type with argument:-
+				public void display(int a[], intb[])
+				{
+				  body
+				};
+
+			c) return type without argument:-
+		
+				public int display()
+				{
+				 int max=0;
+				  //body;
+
+				  return max;
+				}
+
+			d) return type with argument:-
+		
+				public int display(int a[], int b[])
+				{
+				 
+				  //body;
+
+				  return b;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
