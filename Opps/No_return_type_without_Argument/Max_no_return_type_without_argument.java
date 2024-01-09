@@ -5,7 +5,7 @@ import java.util.Scanner;
 		int max = a [0];
 		for (int i = 0; i < a.length; i++) {
 			if (a[i]>max) {
-				max = a[i];
+				max = a[0];
 			}
 		}
 		System.out.println(max);
