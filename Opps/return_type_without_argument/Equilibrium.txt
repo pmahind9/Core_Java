@@ -16,7 +16,7 @@ public class Equilibrium_return_type_without_argument {
             }
 
             if (leftsum == rightsum) {
-                return a[i];
+                return a[j];
             }
         }
         return -1; // If no equilibrium point is found
