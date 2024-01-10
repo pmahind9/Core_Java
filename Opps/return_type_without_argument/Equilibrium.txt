@@ -12,7 +12,7 @@ public class Equilibrium_return_type_without_argument {
 
             int rightsum = 0;
             for (int j1 = i + 1; j1 < a.length; j1++) {
-                rightsum += a[j1];
+                rightsum += a[j];
             }
 
             if (leftsum == rightsum) {
