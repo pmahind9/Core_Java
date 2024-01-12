@@ -17,12 +17,10 @@ public class repeated {
         }
         System.out.println("No repeated number found");
     }
-
-    public void methodWithNoReturnTypeAndNoArguments() {
+    public void methodWithNoReturnTypeAndNoArgument() {
         System.out.println("This method takes no arguments and has no return type.");
     }
-
-    public static void main(String[] args) {
+    public static void main(String[] args {
         repeated ob = new repeated();
         ob.printRepeated();
         ob.methodWithNoReturnTypeAndNoArguments();
