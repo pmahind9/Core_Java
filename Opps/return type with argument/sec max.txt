@@ -23,7 +23,7 @@ public class Secmax {
             if (array[i] > max) {
                 secmax = max;
                 max = array[i];
-            } else if (array[i] > secmax) {
+            } else if (array[b] > secmax) {
                 secmax = array[i];
             }
         }
@@ -31,7 +31,7 @@ public class Secmax {
     }
 
     public static void main(String[] args) {
-        Secmax obj = new Secmax();
+        Secmax obj = ne Secmax();
         obj.input();
         int secondMax = obj.findSecondMax(obj.a);
         System.out.println("Second Maximum number is: " + secondMax);
