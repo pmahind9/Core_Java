@@ -14,7 +14,6 @@ public class Secmax {
 
         sc.close(); // Close the Scanner after usage
     }
-
     public int findSecondMax(int[] array) {
         int secmax = 0;
         int max = 0;
