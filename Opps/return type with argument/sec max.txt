@@ -1,0 +1,40 @@
+package opps;
+import java.util.Scanner;
+public class Secmax {
+    int a[];
+    public void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter array Size");
+        int n = sc.nextInt();
+        System.out.println("Enter array elements");
+        a = new int[n];
+
+        for (int i = 0; i < a.length; i++) {
+            a[i] = sc.nextInt();
+        }
+
+        sc.close(); // Close the Scanner after usage
+    }
+
+    public int findSecondMax(int[] array) {
+        int secmax = 0;
+        int max = 0;
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > max) {
+                secmax = max;
+                max = array[i];
+            } else if (array[i] > secmax) {
+                secmax = array[i];
+            }
+        }
+        return secmax;
+    }
+
+    public static void main(String[] args) {
+        Secmax obj = new Secmax();
+        obj.input();
+        int secondMax = obj.findSecondMax(obj.a);
+        System.out.println("Second Maximum number is: " + secondMax);
+    }
+}
