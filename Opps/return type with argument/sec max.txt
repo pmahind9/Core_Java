@@ -31,7 +31,7 @@ public class Secmax {
     }
 
     public static void main(String[] args) {
-        Secmax obj = ne Secmax();
+        Secmax obj = new Secmax();
         obj.input();
         int secondMax = obj.findSecondMax(obj.a);
         System.out.println("Second Maximum number is: " + secondMax);
