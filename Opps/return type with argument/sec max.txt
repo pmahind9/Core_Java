@@ -23,7 +23,7 @@ public class Secmax {
             if (array[i] > max) {
                 secmax = max;
                 max = array[i];
-            } else if (array[b] > secmax) {
+            } else if (array[i] > secmax) {
                 secmax = array[i];
             }
         }
