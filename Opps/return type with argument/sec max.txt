@@ -28,7 +28,6 @@ public class Secmax {
         }
         return secmax;
     }
-
     public static void main(String[] args) {
         Secmax obj = new Secmax();
         obj.input();
