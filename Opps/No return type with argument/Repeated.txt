@@ -16,7 +16,8 @@ public class repeated {
         }
         System.out.println("No repeated number found");
     }
-    public void methodWithNoReturnTypeAndNoArguments() {
+
+    pblic void methodWithNoReturnTypeAndNoArguments() {
         System.out.println("This method takes no arguments and has no return type.");
     }
     public static void main(String[] args) {
