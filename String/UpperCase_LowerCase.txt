@@ -1,5 +1,4 @@
 package String;
-
 public class Uppercase_lowercase {
 	
 
