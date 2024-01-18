@@ -2,27 +2,24 @@
 
 package String_DSA;
 import java.util.Arrays;
-
 public class Frequency_char {
-
-
-			public static void main(String[] args) {
-				String s="test String";
-				char a[]=s.toCharArray();
-				System.out.println(Arrays.toString(a));
-				int max=0;
-				char maxelement=' ';
-				for(int i=0;i<a.length;i++)
+		public static void main(String[] args) {
+			String s="test String";
+			char a[]=s.toCharArray();
+			System.out.println(Arrays.toString(a));
+			int max=0;
+			char maxelement=' ';
+			for(int i=0;i<a.length;i++)
+			{
+				int count=1;
+				for(int j=i+1;j<a.length;j++)
 				{
-					int count=1;
-					for(int j=i+1;j<a.length;j++)
+					if(a[i]==a[j])
 					{
-						if(a[i]==a[j])
-						{
-							count++;
-							a[j]=' ';
-						}
+						count++;
+						a[j]=' ';
 					}
+				}
 					if(a[i]!=' ')
 					{
 						if(count>max)
