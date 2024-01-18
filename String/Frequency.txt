@@ -22,12 +22,12 @@
 				}
 				if(a[i]!=' ')
 				{
-					if(count>max)
-					{
-						max=count;
-						maxelement=a[i];
-					}
-					System.out.println(a[i]+" "+count);
+				   if(count>max)
+				     {
+				       max=count;
+				       maxelement=a[i];
+				     }
+				   System.out.println(a[i]+" "+count);
 				}
 			}
 			System.out.println("Maximum element is "+maxelement);
