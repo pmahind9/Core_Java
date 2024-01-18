@@ -20,19 +20,17 @@ public class Frequency_char {
 						a[j]=' ';
 					}
 				}
-					if(a[i]!=' ')
+				if(a[i]!=' ')
+				{
+					if(count>max)
 					{
-						if(count>max)
-						{
-							max=count;
-							maxelement=a[i];
-						}
-						System.out.println(a[i]+" "+count);
+						max=count;
+						maxelement=a[i];
 					}
+					System.out.println(a[i]+" "+count);
 				}
-				System.out.println("Maximum element is "+maxelement);
-						
-
-				}
-
 			}
+			System.out.println("Maximum element is "+maxelement);
+		 }
+
+	}
