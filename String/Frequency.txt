@@ -1,7 +1,6 @@
-/*	//Write a Java program to find the character in a string that 
- * occurs the most frequently. String="test string";*/
-package String_DSA;
+/*Write a Java program to find the character in a string that occurs the most frequently. String="test string";*/
 
+package String_DSA;
 import java.util.Arrays;
 
 public class Frequency_char {
