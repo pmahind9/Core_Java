@@ -1,8 +1,8 @@
 /*Write a Java program to find the character in a string that occurs the most frequently. String="test string";*/
 
-package String_DSA;
-import java.util.Arrays;
-public class Frequency_char {
+	package String_DSA;
+	import java.util.Arrays;
+	public class Frequency_char {
 		public static void main(String[] args) {
 			String s="test String";
 			char a[]=s.toCharArray();
