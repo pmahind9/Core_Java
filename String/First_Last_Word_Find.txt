@@ -1,0 +1,14 @@
+/* WAP to print the first and last word of String */
+
+package String_DSA;
+import java.util.Arrays;
+public class Split_First_last_Word_Print {
+	public static void main(String[] args) {
+		String s="Java is fav lang";
+		String a[]=s.split(" ");
+		System.out.println(Arrays.toString(a));
+		System.out.println();
+		System.out.println("First word is : "+a[0]);
+		System.out.println("Last word is :"+a[a.length-1]);
+	}
+}
