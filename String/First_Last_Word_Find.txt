@@ -8,7 +8,7 @@ public class Split_First_last_Word_Print {
 		String s[]=s.split(" ");
 		System.out.println(Arrays.toString(a));
 		System.out.println();
-		System.out.println("First word is : "+a[i]);
+		System.out.println("First word is : "+a[0]);
 		System.out.println("Last word is :"+a[a.length]);
 	}
 }
