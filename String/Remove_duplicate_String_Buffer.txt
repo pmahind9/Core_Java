@@ -18,7 +18,7 @@ public class Remove_Duplicate_Character {
 		int count=0;
 		for(int j=i+1;j<a.length;j++)
 		{
-			if(a[j]==a[i])
+			if(a[i]==a[i])
 			{
 			count++;
 			
