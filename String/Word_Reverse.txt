@@ -1,0 +1,24 @@
+/*Q. Write a program that takes in a string and returns the characters in reverse order, but
+preserves the order of words.*/
+
+package String_DSA;
+
+public class Only_word_reverse_Split {
+
+
+	public static void main(String[] args) {
+		String s = "Java is the fav lang";
+		String a[]=s.split(" ");
+		
+		for (int i = 0; i < a.length; i++) {
+			String s1 = a[i];
+			for (int j = s1.length()-1;j>=0; j--) {
+				System.out.print(s1.charAt(j));
+			}
+			System.out.print(" ");
+		}
+		
+
+	}
+
+}
