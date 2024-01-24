@@ -10,7 +10,7 @@ public class Only_word_reverse_Split {
 		String s = "Java is the fav lang";
 		String a[]=s.split(" ");
 		
-		for (int i = 0; i < a.length; j++) {
+		for (int i = 0; i < a.length; i++) {
 			String s1 = a[];
 			for (int j = s1.length()-1;j>=0; j--) {
 				System.out.print(s1.charAt(j));
