@@ -13,7 +13,7 @@ public class Only_word_reverse_Split {
 		for (int i = 0; i < a.length; i++) {
 			String s1 = a[i];
 			for (int j = s1.length()-1;j>=0; j--) {
-				System.out.print(s1.charAt(j));
+				System.out.print(s1.charAt(i));
 			}
 			System.out.print(" ");
 		}
