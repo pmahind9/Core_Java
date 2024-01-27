@@ -11,7 +11,7 @@ public class Swap_Comma_Dot {
 			}
 			else {
 				if (a[i]==',') {
-					a[j]='.';
+					a[i]='.';
 				}
 				else {
 					a[j]=',';
