@@ -10,7 +10,7 @@ public class Swap_Comma_Dot {
 				continue;
 			}
 			else {
-				if (a[j]==',') {
+				if (a[i]==',') {
 					a[j]='.';
 				}
 				else {
