@@ -31,9 +31,9 @@ public class Custom_exception_Imp {
 	 try {
 	 ob.vote();
 	 }
-	 catch(Exception e)
+	 catch(Exception )
 	 {
-		 System.out.println(e);
+		 System.out.println();
 	 }
 }
 }
