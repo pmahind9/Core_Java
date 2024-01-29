@@ -33,7 +33,7 @@ public class Custom_exception_Imp {
 	 }
 	 catch(Exception e)
 	 {
-		 System.out.println();
+		 System.out.println(e);
 	 }
 }
 }
