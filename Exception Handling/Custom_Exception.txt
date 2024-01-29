@@ -1,0 +1,39 @@
+package Exception_Handling;
+
+import java.util.Scanner;
+class invalidage extends Exception
+{
+	invalidage(String str)
+	{
+		super(str);
+	}
+}
+class demo1 
+{
+	public void vote() throws invalidage
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your age");
+		int n=sc.nextInt();
+		if(n<18)
+		{
+			throw new invalidage("You are not eligible for vote");
+		}
+		else
+		{
+			System.out.println("Succesfully vote..!");
+		}
+	}
+}
+public class Custom_exception_Imp {
+ public static void main(String[] args)  {
+	 demo1 ob=new demo1();
+	 try {
+	 ob.vote();
+	 }
+	 catch(Exception e)
+	 {
+		 System.out.println(e);
+	 }
+}
+}
