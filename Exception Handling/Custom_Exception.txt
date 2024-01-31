@@ -5,7 +5,7 @@ class invalidage extends Exception
 {
 	invalidage(String str)
 	{
-		super(sr);
+		super(str);
 	}
 }
 class demo1 
