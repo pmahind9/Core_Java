@@ -1,7 +1,7 @@
 package Exception_Handling;
 
 import java.util.Scanner;
-class invalidage extends Exceptions
+class invalidage extends Exception
 {
 	invalidage(String str)
 	{
