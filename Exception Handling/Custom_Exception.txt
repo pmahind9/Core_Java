@@ -15,7 +15,7 @@ class demo1
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter your age");
 		int n=sc.nextInt();
-		if(n<=18)
+		if(n<18)
 		{
 			throw new invalidage("You are not eligible for vote");
 		}
