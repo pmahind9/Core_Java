@@ -5,17 +5,17 @@ class invalidage extends Exception
 {
 	invalidage(String str)
 	{
-		super(str);
+		super(sr);
 	}
 }
 class demo1 
 {
 	public void vote() throws invalidage
 	{
-		Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(Systemin);
 		System.out.println("Enter your age");
 		int n=sc.nextInt();
-		if(n<18)
+		if(n<=18)
 		{
 			throw new invalidage("You are not eligible for vote");
 		}
