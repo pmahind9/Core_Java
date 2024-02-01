@@ -11,11 +11,11 @@ public class Finally_Exception {
 		{
 			int a = sc.nextInt();
 			int b = sc.nextInt();
-			System.out.println(a/b);
+			System.out.println(c/b);
 		}
-		catch(Exception e)
+		catch(Exception )
 		{
-			System.out.println(e + "Developers exception occurs");
+			System.out.println( + "Developers exception occurs");
 		}
 		finally
 		{
