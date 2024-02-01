@@ -13,7 +13,7 @@ public class Finally_Exception {
 			int b = sc.nextInt();
 			System.out.println(a/b);
 		}
-		catch(Exception )
+		catch(Exception e)
 		{
 			System.out.println( + "Developers exception occurs");
 		}
