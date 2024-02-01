@@ -15,7 +15,7 @@ public class Finally_Exception {
 		}
 		catch(Exception e)
 		{
-			System.out.println( + "Developers exception occurs");
+			System.out.println(e + "Developers exception occurs");
 		}
 		finally
 		{
