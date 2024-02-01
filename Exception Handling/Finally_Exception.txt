@@ -1,0 +1,27 @@
+package Exception_Handling;
+
+import java.util.Scanner;
+
+public class Finally_Exception {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Values");
+		try
+		{
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			System.out.println(a/b);
+		}
+		catch(Exception e)
+		{
+			System.out.println(e + "Developers exception occurs");
+		}
+		finally
+		{
+			System.out.println("This is finally block it alwys runs");
+		}
+
+	}
+
+}
