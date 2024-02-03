@@ -5,6 +5,7 @@ when the sum of two integers exceeds a certain threshold.
  ThresholdExceededException if their sum is greater than 100. 
  Handle the exception and display an appropriate error message.*/
 
+
 package Exception_Handling;
 
 import java.util.Scanner;
