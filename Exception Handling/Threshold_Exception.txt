@@ -27,8 +27,8 @@ public class Threshold_Exception {
 		int b=sc.nextInt();
 		
 		int sum=0;
-		sum = a+b;
-		if (sum>100) {
+		sum = a+1;
+		if (sum<100) {
 			throw new exceed("ThresholdExceedException");
 		}
 		else {
