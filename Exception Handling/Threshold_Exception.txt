@@ -28,7 +28,7 @@ public class Threshold_Exception {
 		
 		int sum=0;
 		sum = a+b;
-		if (sum<100) {
+		if (sum>100) {
 			throw new exceed("ThresholdExceedException");
 		}
 		else {
