@@ -1,0 +1,50 @@
+/*Question 1:
+Write a Java program that throws a custom exception 
+when the sum of two integers exceeds a certain threshold.
+ The program should accept two integers as input and throw a 
+ ThresholdExceededException if their sum is greater than 100. 
+ Handle the exception and display an appropriate error message.*/
+
+package Exception_Handling;
+
+import java.util.Scanner;
+
+class exceed extends Exception{
+	exceed(String str){
+		super(str);
+	}
+}
+
+public class Threshold_Exception {
+	public void threshold() throws exceed{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the 1st Number");
+		int a=sc.nextInt();
+		
+		System.out.println("Enter the 2nd Number");
+		int b=sc.nextInt();
+		
+		int sum=0;
+		sum = a+b;
+		if (sum>100) {
+			throw new exceed("ThresholdExceedException");
+		}
+		else {
+			System.out.println(sum);
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		Threshold_Exception ob = new Threshold_Exception();
+		try {
+			ob.threshold();
+		}
+		catch(Exception e) {
+			System.out.println(e);
+		}
+
+	}
+
+}
