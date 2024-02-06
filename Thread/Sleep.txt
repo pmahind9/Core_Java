@@ -25,7 +25,7 @@ class t1 extends Thread
 public class Sleep_eg1 {
 
 	public static void main(String[] args) {
-		t1 ob = new t();
+		t1 ob = new t1();
 		ob.start();
 
 	}
