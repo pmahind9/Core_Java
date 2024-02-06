@@ -7,7 +7,7 @@ class t1 extends Thread
 		System.out.println("My name is Prathamesh Mahind");
 		
 		try {
-			Thread.sleep(000);
+			Thread.sleep(3000);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
