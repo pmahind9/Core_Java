@@ -15,7 +15,7 @@ class t1 extends Thread
 		System.out.println("And my Adress is Ichalkaranji");
 		
 		try {
-			Thread.sleep(000);
+			Thread.sleep(3000);
 		} catch (Exception ) {
 			e.printStackTrace();
 		}
