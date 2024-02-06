@@ -1,0 +1,33 @@
+package Thread;
+
+class t1 extends Thread
+{
+	public void run ()
+	{
+		System.out.println("My name is Prathamesh Mahind");
+		
+		try {
+			Thread.sleep(3000);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("And my Adress is Ichalkaranji");
+		
+		try {
+			Thread.sleep(3000);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+}
+public class Sleep_eg1 {
+
+	public static void main(String[] args) {
+		t1 ob = new t1();
+		ob.start();
+
+	}
+
+}
