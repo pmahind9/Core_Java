@@ -7,7 +7,7 @@ class t1 extends Thread
 		System.out.println("My name is Prathamesh Mahind");
 		
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(000);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -15,8 +15,8 @@ class t1 extends Thread
 		System.out.println("And my Adress is Ichalkaranji");
 		
 		try {
-			Thread.sleep(3000);
-		} catch (Exception e) {
+			Thread.sleep(000);
+		} catch (Exception ) {
 			e.printStackTrace();
 		}
 		
@@ -25,7 +25,7 @@ class t1 extends Thread
 public class Sleep_eg1 {
 
 	public static void main(String[] args) {
-		t1 ob = new t1();
+		t1 ob = new t();
 		ob.start();
 
 	}
