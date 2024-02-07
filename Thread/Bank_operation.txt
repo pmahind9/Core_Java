@@ -37,7 +37,7 @@ public class Bank_Acoount {
 	public static void main(String[] args) throws InterruptedException {
 
 		Deposite ob2 = new Deposite();
-		ob1.start();
+		ob2.start();
 		ob2.join();
 
 		Withdraw ob1 = new Withdraw();
