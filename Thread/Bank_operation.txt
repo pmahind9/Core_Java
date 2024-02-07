@@ -1,0 +1,47 @@
+package Thread_DSA;
+
+import java.util.Scanner;
+
+/*Write a program that simulates a bank account using threads.
+ *  Multiple threads should be able to withdraw and deposit money concurrently, 
+ * but the balance of the account should always be accurate.*/
+class Deposite extends Thread {
+	Scanner sc = new Scanner(System.in);
+
+	public void run() {
+
+		System.out.println("enter amount to deposite : ");
+		int n = sc.nextInt();
+		Bank_Acoount.balance += n;
+		System.out.println("current balance : " + Bank_Acoount.balance);
+	}
+}
+
+class Withdraw extends Thread {
+	Scanner sc = new Scanner(System.in);
+
+	public void run() {
+
+		System.out.println("Enter Withdraw amount");
+		int n = sc.nextInt();
+		Bank_Acoount.balance -= n;
+		System.out.println("current balance : " + Bank_Acoount.balance);
+	}
+
+}
+
+
+public class Bank_Acoount {
+	static int balance;
+
+	public static void main(String[] args) throws InterruptedException {
+
+		Deposite ob2 = new Deposite();
+		ob2.start();
+		ob2.join();
+
+		Withdraw ob1 = new Withdraw();
+		ob1.start();
+
+	}
+}
