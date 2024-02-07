@@ -24,7 +24,7 @@ class Withdraw extends Thread {
 
 		System.out.println("Enter Withdraw amount");
 		int n = sc.nextInt();
-		Bank_Acoount.balance -= n;
+		Bank_Acoount.balance -= m;
 		System.out.println("current balance : " + Bank_Acoount.balance);
 	}
 
@@ -37,7 +37,7 @@ public class Bank_Acoount {
 	public static void main(String[] args) throws InterruptedException {
 
 		Deposite ob2 = new Deposite();
-		ob2.start();
+		ob1.start();
 		ob2.join();
 
 		Withdraw ob1 = new Withdraw();
