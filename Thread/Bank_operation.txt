@@ -24,7 +24,7 @@ class Withdraw extends Thread {
 
 		System.out.println("Enter Withdraw amount");
 		int n = sc.nextInt();
-		Bank_Acoount.balance -= m;
+		Bank_Acoount.balance -= n;
 		System.out.println("current balance : " + Bank_Acoount.balance);
 	}
 
