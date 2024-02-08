@@ -14,7 +14,7 @@ class one implements Runnable{
 			}catch(InterruptedException e) {
 				e.printStackTrace();
 			}
-			Runable_Interface.a[j]=s;
+			Runable_Interface.a[i]=s;
 		}
 	}
 }
