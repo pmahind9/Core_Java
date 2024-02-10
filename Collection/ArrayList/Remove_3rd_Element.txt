@@ -11,7 +11,7 @@ public class Remove_3rd_Element {
 	public static void main(String[] args) {
 		ArrayList remove = new ArrayList();
 	remove.add("Java");
-	remove.set("is");
+	remove.add("is");
 	remove.set("a");
 	remove.set("Difficult");
 	remove.add("langauge");
