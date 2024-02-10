@@ -13,10 +13,10 @@ public class Remove_3rd_Element {
 	remove.add("Java");
 	remove.add("is");
 	remove.add("a");
-	remove.set("Difficult");
+	remove.add("Difficult");
 	remove.add("langauge");
 	
-	System.out.println("Original Arralist :-"remove);
+	System.out.println("Original Arralist :- " +remove);
 	
 	System.out.println();
 	
