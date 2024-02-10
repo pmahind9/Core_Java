@@ -1,0 +1,32 @@
+package ArrayList_DSA;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+/*Write a Java program to remove the 
+ * third element from an array list.*/
+
+public class Remove_3rd_Element {
+
+	public static void main(String[] args) {
+		ArrayList remove = new ArrayList();
+	remove.add("Java");
+	remove.add("is");
+	remove.add("a");
+	remove.add("Difficult");
+	remove.add("langauge");
+	
+	System.out.println("Original Arralist :-"+remove);
+	
+	System.out.println();
+	
+	
+	System.out.println("Removeable Object :- "+remove.remove(3));
+	
+	System.out.println();
+	System.out.println("After romeving 3rd element :- "+remove);
+
+	
+	}
+
+}
