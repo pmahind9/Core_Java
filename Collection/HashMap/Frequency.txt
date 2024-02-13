@@ -1,0 +1,31 @@
+package HashMap;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+
+public class HashMap_Frequency_of_word {
+	public static void main(String[] args) {
+		HashMap a=new HashMap();
+		a.put(1, "java");
+		a.put(2, "is");
+		a.put(2, "good");
+		a.put(4, "but");
+		a.put(3, "java");
+		a.put(7, "but");
+		a.put(4, "is");
+		System.out.println(a);
+		
+		LinkedList b=new LinkedList(a.values());
+		for(int i=0;i<b.size();i++) {
+			int count=1;
+			for(int j=i+1;j<b.size();j++) {
+				if(b.get(i).equals(b.get(j))) {
+					count++;
+					b.remove(j);
+					j--;
+				}
+			}
+				System.out.println(b.get(i)+" "+count+" ");		
+		}
+	}
+}
