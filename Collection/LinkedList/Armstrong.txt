@@ -18,7 +18,7 @@ public class LinkedList {
 	            	nar += Math.pow(num, li.size());
 	            }
 	            if(i == nar) {
-	                System.out.println(j);
+	                System.out.println(i);
 	            }
 	        }
 	    }
