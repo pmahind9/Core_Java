@@ -1,0 +1,27 @@
+package Practice;
+
+import java.util.LinkedList;
+
+public class LinkedList {	
+
+	    public static void main(String args[])
+	    {
+	        for (int i = 1; i < 1000; i++) {
+	            int n = i;
+	            LinkedList<Integer> li = new LinkedList<>();
+	            while (n > 0) {
+	                li.push( n % 10 );
+	                n = n / 10;
+	            }
+	            int nar = 0;
+	            for(Integer num : li) {
+	            	nar += Math.pow(num, li.size());
+	            }
+	            if(i == nar) {
+	                System.out.println(i);
+	            }
+	        }
+	    }
+	}
+
+
