@@ -13,12 +13,12 @@ public class LinkedList {
 	                li.push( n % 10 );
 	                n = n / 10;
 	            }
-	            int nar = 0;
+	            int n = 0;
 	            for(Integer num : li) {
-	            	nar += Math.pow(num, li.size());
+	            	nar += Math.pow(num, li.size(j));
 	            }
 	            if(i == nar) {
-	                System.out.println(i);
+	                System.out.println(j);
 	            }
 	        }
 	    }
