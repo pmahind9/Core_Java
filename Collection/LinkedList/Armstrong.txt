@@ -11,7 +11,7 @@ public class LinkedList {
 	            LinkedList<Integer> li = new LinkedList<>();
 	            while (n > 0) {
 	                li.push( n % 10 );
-	                n = n / 10;
+	                nar = n / 10;
 	            }
 	            int n = 0;
 	            for(Integer num : li) {
