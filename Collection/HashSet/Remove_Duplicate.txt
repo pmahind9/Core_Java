@@ -1,0 +1,28 @@
+package HasSet;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Hashset_Remove_duplicate {
+
+	public static Set<Integer> remove_duplicate_from_array(int[] array) {
+		
+		HashSet<Integer> hs = new HashSet<Integer>();
+		
+		for (int i = 0; i < array.length; i++) {
+			hs.add(array[i]);
+		}
+		return hs;
+
+	}
+	public static void main(String[] args) {
+		int a[] = {1,2,3,4,5,5,1,2,6,9,8,7,4,1,5,};
+		
+		Hashset_Remove_duplicate ob = new Hashset_Remove_duplicate();
+		
+		Set<Integer> hs1=ob.remove_duplicate_from_array(a);
+		
+		System.out.println(hs1);
+	}
+
+}
