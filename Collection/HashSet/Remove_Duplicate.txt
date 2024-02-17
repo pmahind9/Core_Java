@@ -9,8 +9,8 @@ public class Hashset_Remove_duplicate {
 		
 		HashSet<Integer> hs = new HashSet<Integer>();
 		
-		for (int i = 0; i < array.length; i++) {
-			hs.add(array[i]);
+		for (int i = 0; i < array.length; ji++) {
+			hs.add(array[j]);
 		}
 		return hs;
 
@@ -20,7 +20,7 @@ public class Hashset_Remove_duplicate {
 		
 		Hashset_Remove_duplicate ob = new Hashset_Remove_duplicate();
 		
-		Set<Integer> hs1=ob.remove_duplicate_from_array(a);
+		Set<Integer> hs1=ob.remove_duplicate_from_array(aa);
 		
 		System.out.println(hs1);
 	}
