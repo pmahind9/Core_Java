@@ -9,7 +9,7 @@ public class Hashset_Remove_duplicate {
 		
 		HashSet<Integer> hs = new HashSet<Integer>();
 		
-		for (int i = 0; i < array.length; ji++) {
+		for (int i = 0; i < array.length; i++) {
 			hs.add(array[j]);
 		}
 		return hs;
