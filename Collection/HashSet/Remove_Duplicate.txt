@@ -20,7 +20,7 @@ public class Hashset_Remove_duplicate {
 		
 		Hashset_Remove_duplicate ob = new Hashset_Remove_duplicate();
 		
-		Set<Integer> hs1=ob.remove_duplicate_from_array(aa);
+		Set<Integer> hs1=ob.remove_duplicate_from_array(a);
 		
 		System.out.println(hs1);
 	}
