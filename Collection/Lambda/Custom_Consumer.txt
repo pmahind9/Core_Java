@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 
 class impl implements Consumer<Integer>
 {
-	Override
+	@Override
 	public void accept(Integer t)
 	{	
 		System.out.println();
