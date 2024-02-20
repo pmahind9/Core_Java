@@ -1,0 +1,42 @@
+package Lambda;
+
+import java.util.ArrayList;
+import java.util.function.Consumer;
+
+
+class impl implements Consumer<Integer>
+{
+
+	@Override
+	public void accept(Integer t)
+	{	
+		System.out.println(t);
+	}	
+}
+
+public class Custom_Cunjumer 
+{
+	public static void main(String[] args) 
+	{
+		
+		ArrayList<Integer> ob=new ArrayList<>();
+		
+		ob.add(1);
+		ob.add(2);
+		ob.add(3);
+		ob.add(4);
+		ob.add(5);
+		
+		System.out.println(ob);
+		
+		
+		ob.forEach(i-> System.out.println(i));
+		
+		Consumer cn=new impl();
+		
+		ob.forEach(cn);
+		
+		
+	}
+
+}
