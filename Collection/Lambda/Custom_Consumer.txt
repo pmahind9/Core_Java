@@ -17,7 +17,7 @@ public class Custom_Cunjumer
 	public static void main(String[] args) 
 	{
 		
-		ArrayList<> ob=new ArrayList<>();
+		ArrayList<Integer> ob=new ArrayList<>();
 		
 		ob.add(1);
 		ob.add(2);
