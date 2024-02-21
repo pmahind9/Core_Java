@@ -3,7 +3,6 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 
 public class Simple {
-
 	public static void main(String[] args) {
 		
 		HashSet hs = new HashSet<>();
