@@ -1,0 +1,35 @@
+package LinkedHashSet;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+
+public class Simple {
+
+	public static void main(String[] args) {
+		
+		HashSet hs = new HashSet<>();
+		
+		hs.add(24);
+		hs.add(98);
+		hs.add(64);
+		hs.add(18);
+		hs.add(23);
+		hs.add(97);
+		
+		System.out.println(hs);
+		
+		
+		LinkedHashSet lhs = new LinkedHashSet<>();
+		
+		lhs.add(24);
+		lhs.add(98);
+		lhs.add(64);
+		lhs.add(18);
+		lhs.add(23);
+		lhs.add(97);
+		
+		System.out.println(lhs);
+
+	}
+
+}
