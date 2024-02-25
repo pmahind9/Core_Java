@@ -12,7 +12,6 @@ class Queue {
         }
         return false;
     }
-
     public boolean isempty() {
         if (elementpresent == 0) {
             return true;
