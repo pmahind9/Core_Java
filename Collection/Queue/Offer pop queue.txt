@@ -1,0 +1,88 @@
+package Queue;
+
+class Queue {
+    int front = 0;
+    int rear = -1;
+    int elementpresent = 0;
+    int a[] = new int[10];
+
+    public boolean isfull() {
+        if (elementpresent == a.length) {
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isempty() {
+        if (elementpresent == 0) {
+            return true;
+        }
+        return false;
+    }
+
+    public void offer(int element) {
+        if (isfull()) {
+            System.out.println("You cannot add element because the queue is full");
+        } else {
+            rear++;
+            a[rear] = element;
+            elementpresent++;
+            System.out.println(element + " is successfully added to the queue");
+        }
+    }
+
+    public void poll() {
+        if (isempty()) {
+            System.out.println("You cannot remove element because the queue is empty");
+        } else {
+            System.out.println(a[front]);
+            elementpresent--;
+            front++;
+        }
+    }
+
+    public void peek() {
+        System.out.println(a[front]);
+    }
+
+    public void display() {
+        for (int i = front; i <= rear; i++) {
+            System.out.println(a[i] + " ");
+        }
+        System.out.println();
+    }
+}
+
+public class Offer_pop_peek_Queue {
+
+    public static void main(String[] args) {
+
+        Queue ob = new Queue();
+        System.out.println("Is the queue empty? " + ob.isempty());
+        ob.offer(10);
+        ob.offer(20);
+        ob.offer(30);
+        ob.offer(40);
+
+        System.out.println("Our Queue is:");
+        ob.display();
+
+        System.out.println("Element removed is ");
+        ob.poll();
+
+        System.out.println("Element removed is:");
+        ob.poll();
+        ob.offer(20);
+        ob.offer(30);
+        ob.offer(40);
+
+        System.out.println("Our Queue is:");
+        ob.display();
+
+        System.out.println("Head element is:");
+        ob.peek();
+        System.out.println("Is the queue full? " + ob.isfull());
+
+        System.out.println("Elements present in the queue: " + ob.elementpresent);
+    }
+}
