@@ -2,7 +2,7 @@ package Queue;
 
 class Queue {
     int front = 0;
-    int rear = 1;
+    int rear = -1;
     int elementpresent = 0;
     int a[] = new int[10];
 
