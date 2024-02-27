@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	ob.add(14);
 	System.out.println(ob);
 	System.out.println(ob.peek());
-	if(obisEmpty())
+	if(ob.isEmpty())
 	{
 		System.out.println("stack is empty");
 	}
