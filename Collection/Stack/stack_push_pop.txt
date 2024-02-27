@@ -1,0 +1,27 @@
+package Stack;
+
+import java.util.Stack;
+
+//1. Write a Java program to implement a stack with push and pop operations.
+//Find the top element of the stack and check if it is empty or not.
+
+public class Stack_push_pop {
+public static void main(String[] args) {
+	Stack<Integer> ob=new Stack<Integer>();
+	
+	ob.add(11);
+	ob.add(12);
+	ob.add(13);
+	ob.add(14);
+	System.out.println(ob);
+	System.out.println(ob.peek());
+	if(ob.isEmpty())
+	{
+		System.out.println("stack is empty");
+	}
+	else
+	{
+		System.out.println("stack is not empty");
+	}
+}
+}
