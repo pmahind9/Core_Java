@@ -2,8 +2,8 @@ package Stack;
 
 import java.util.Stack;
 
-/1. Write a Java program to implement a stack with push and pop operations.
-  Find the top element of the stack and check if it is empty or not.
+/* 1. Write a Java program to implement a stack with push and pop operations.
+    Find the top element of the stack and check if it is empty or not. */
 
 public class Stack_push_pop {
 public static void main(String[] args) {
