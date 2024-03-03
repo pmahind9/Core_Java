@@ -13,6 +13,6 @@ public class Wrap {
         // Converting wrapper type into primitive
         Integer m = new Integer(10);
         int i = m.intValue();
-        int p = n; // Auto-unboxing
+        int p = m; // Auto-unboxing
     }
 }
