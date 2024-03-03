@@ -1,0 +1,18 @@
+package Wrap;
+
+public class Wrap {
+
+    public static void main(String[] args) {
+        
+        // Converting primitive data type into wrapper
+        int a = 20;
+        Integer i = Integer.valueOf(a);
+        Integer k = a; // Auto-boxing
+        System.out.println("Converting primitive data type into wrapper: " + i + " " + k);
+        
+        // Converting wrapper type into primitive
+        Integer m = new Integer(10);
+        int i1 = m.intValue();
+        int p = m; // Auto-unboxing
+    }
+}
