@@ -1,0 +1,23 @@
+package TreeSet;
+
+import java.util.TreeSet;
+
+public class Tree_Remove_all {
+
+	public static void main(String[] args) {
+		TreeSet ts = new TreeSet<>();
+		ts.add(65);
+		ts.add(71);
+		ts.add(35);
+		ts.add(21);
+		ts.add(6);
+		ts.add(51);
+		
+		System.out.println("Main data : "+ts);
+		System.out.println();
+		
+		ts.removeAll(ts);
+		System.out.println("After removing all data : "+ts);
+	}
+
+}
