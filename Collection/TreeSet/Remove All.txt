@@ -1,7 +1,5 @@
 package TreeSet;
-
 import java.util.TreeSet;
-
 public class Tree_Remove_all {
 
 	public static void main(String[] args) {
