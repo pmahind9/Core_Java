@@ -13,7 +13,7 @@ public class Tree_Remove_all {
 		ts.add(6);
 		ts.add(51);
 		
-		System.out.println("Main data : "+ts);
+		System.out.println("Main data : "+tm);
 		System.out.println();
 		
 		ts.removeAll(ts);
