@@ -9,7 +9,7 @@ public class Even_Odd {
 		System.out.println("even elements");
 		a.forEach(p1->{
 			if(p1%2==0) {
-				System.out.println(p);
+				System.out.println(p1);
 			}
 		});
 		System.out.println("odd elements");
